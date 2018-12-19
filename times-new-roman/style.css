@@ -1,0 +1,73 @@
+ *, *::after, *::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+} 
+
+.dropdown-item:hover {
+	background:transparent;
+	font-style: italic;
+}
+
+.dropdown-item:active {
+	color: magenta;
+}
+
+body {
+	background: #6c7070 url(./img/upfeathers.png);
+	max-width: 1366px;
+	width: 100%;
+}
+
+.logo {
+	font-family: Lobster;
+	font-size: 25px;
+}
+
+
+.books {
+	margin-bottom: 50px;
+	padding-left: 4%;
+	
+}
+
+
+@media (max-width: 390px){
+	.books {
+		padding-left: 10%;
+	}
+
+}
+
+.about {
+	margin-left: 40px;
+}
+
+
+
+.p-say {
+	font-family: 'Dancing Script', cursive;
+}
+
+.text-butt {
+	font-family: 'Pacifico', cursive ;
+	font-size: 1.3em;
+}
+
+
+
+footer {
+	margin-top: 20px;
+	padding-bottom: 5px;
+	width: 100%;
+	
+}
+
+footer>p img{
+	padding-top: 10px;
+}
+
+footer >p {
+	font-weight: normal;
+	font-size: 18px;
+}
